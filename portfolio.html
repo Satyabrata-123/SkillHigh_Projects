@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Satyabrata Mallik | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      padding: 0.5rem 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .projects .project {
+      background: #fff;
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .skills li {
+      background: #2980b9;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+    }
+    .contact form {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    .contact input, .contact textarea {
+      width: 100%;
+      padding: 0.7rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Satyabrata Mallik</h1>
+  <p>Developer | Programmer | Learner</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I'm Satyabrata Mallik, a passionate developer focused on building full-stack web applications using Java, Spring Boot, MySQL, and more. I love learning new 
+    technologies and solving real-world problems through code.</p>
+</section>
+
+<section id="projects" class="projects">
+  <h2>Projects</h2>
+  <div class="project">
+    <h3>Job Portal System</h3>
+    <p>A web app where employers can post jobs and applicants can apply. Built with Spring Boot, MySQL, and Thymeleaf.</p>
+  </div>
+  <div class="project">
+    <h3>Food Booking Website</h3>
+    <p>Includes restaurants, cloud kitchens, and hotel table booking. Technologies: HTML, CSS, JavaScript, and Java backend.</p>
+  </div>
+</section>
+
+<section id="skills" class="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript,MongoDb,Node Js</li>
+    <li>Java</li>
+    <li>Spring Boot</li>
+    <li>MySQL</li>
+    <li>Thymeleaf</li>
+  </ul>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <form onsubmit="return submitForm()">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <input type="submit" value="Send">
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Satyabrata Mallik. All rights reserved.</p>
+</footer>
+
+<script>
+  function submitForm() {
+    alert("Thank you for your message!");
+    return false; 
+  }
+</script>
+
+</body>
+</html>
